@@ -1,0 +1,144 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        height: 100%;
+        font-family: 'Alice', serif;
+    }
+
+    .tela{
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100%;
+        padding: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .tela::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(87, 56, 36, 0.5);
+        z-index: 1;
+    }
+
+    .imgfundo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 2.4rem; 
+        z-index: 0; 
+    }
+    .imgfundo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        filter: blur(10px);
+    }
+
+    .info{
+        position: relative;
+        z-index: 2;
+        background-color:#F0E8C2;
+        border-radius: 2.4rem;
+        padding: 2.4rem 4.8rem 4.8rem;
+        width: 80rem;
+        height: 144rem;
+    }
+
+    .cupcakes {
+        display: flex;
+        justify-content: center;
+      }
+
+    .cupcakes img {
+        border-radius: 1.6rem;
+        display: block;
+        margin-bottom: 2.4rem;
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        width: 75.5rem;
+        height: 40rem;
+    }
+
+
+    .info img{
+        text-align: center;
+    }
+
+    h1{ 
+        font-size: 4rem;
+        color: #291B1A;
+        margin-bottom: 1rem;
+        text-align:left;
+    }
+
+    h2{
+        font-size: 2.4rem;
+        color: #291B1A;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    p{
+        font-family: 'Alice-Regular',serif;
+        font-size: 1.6rem;
+        color: #573A37;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .infos{
+        margin-top: 1.2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    ul{
+        color: #573A37;
+        font-family: 'Alice-Regular', serif;
+        font-size:1.6rem;
+        margin-top: 0.4rem;
+        margin-bottom: 2.4rem;
+        margin-left: 1.7rem;
+    }
+
+    ul li{
+        margin-bottom: 0.5rem;
+    }
+    
+    .final{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Alice-Regular' serif;
+        padding-top: 2.4rem;
+    }
+
+    .final p{
+        margin: 0;
+        font-size: 1.6rem;
+        color: #F0E8C2;
+
+    }
+
+    .final img{
+        width: 1.6rem;
+        margin: 0 0.4rem;
+    }
+
